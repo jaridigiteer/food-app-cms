@@ -1,7 +1,7 @@
-.light-red{
+.bg-light-red{
     background-color: #FEF2F2;
 }
-.dark-red{
+.bg-dark-red{
     background-color: #D3364F !important;
 }
 .text-dark-red{
@@ -22,6 +22,20 @@ hr.hr-clear{
     opacity: 0;
 }
 .search-magnify{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout-btn{
+    padding: .5rem .8rem;
+    border: 2px solid #D3364F;
+    border-radius: 8px;
+    background-color: transparent;
+    color:#D3364F;
+}
+
+.center-single{
     display: flex;
     align-items: center;
     justify-content: center;
