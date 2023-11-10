@@ -1,0 +1,23 @@
+.light-red{
+    background-color: #FEF2F2;
+}
+.dark-red{
+    background-color: #D3364F;
+}
+.text-dark-red{
+    color: #D3364F !important;
+}
+.active-navbar{
+    color: black;
+    height: 100%;
+    width: 100%;
+    background-color: white !important;
+    border-radius: 100px 000px 00px 100px;
+}
+.tear-nav{
+    border-radius: 00px 60px 00px 000px;
+}
+
+hr.hr-clear{
+    opacity: 0;
+}
