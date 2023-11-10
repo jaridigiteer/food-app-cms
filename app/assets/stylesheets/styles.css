@@ -2,7 +2,7 @@
     background-color: #FEF2F2;
 }
 .dark-red{
-    background-color: #D3364F;
+    background-color: #D3364F !important;
 }
 .text-dark-red{
     color: #D3364F !important;
@@ -20,4 +20,9 @@
 
 hr.hr-clear{
     opacity: 0;
+}
+.search-magnify{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
