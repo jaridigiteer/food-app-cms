@@ -2,6 +2,7 @@
     background-color: #FEF2F2;
 }
 .bg-dark-red{
+    color: #fff;
     background-color: #D3364F !important;
 }
 .text-dark-red{
@@ -40,3 +41,19 @@ hr.hr-clear{
     align-items: center;
     justify-content: center;
 }
+
+.btn-dark-red{
+    color: #fff !important;;
+    background-color: #D3364F !important;
+    border-color: #D3364F;
+  }
+  
+.btn-dark-red:hover,
+.btn-dark-red:active,
+.btn-dark-red:focus,
+.btn-dark-red.active {
+    /* let's darken #004E64 a bit for hover effect */
+    background: #bc2942 !important;;
+    color: #ffffff !important;;
+    border-color: #bc2942 !important;;
+  }
