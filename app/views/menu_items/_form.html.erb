@@ -1,0 +1,87 @@
+<div class="container ">
+    <div class="row">
+        <div class="col-1 card h-100">
+         <label>
+            <span>Input file</span>
+        </label>
+        <input type="file" id="avatar" name="avatar">
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-10">
+            <div class="row">
+                <label for="name" class="text-body-secondary">Item Name</label>
+                <input class="bg-body-tertiary border-0 py-2" type="text" id="name" name="name" placeholder="Type Here">
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="row">
+                <label for="price" class="text-body-secondary">Base Price</label>
+                <input class="bg-body-tertiary border-0 py-2 mx-1" type="tel" id="price" name="price" placeholder="Type Here">
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-10">
+            <div class="row">
+                <label for="description" class="text-body-secondary">Description</label>
+                <input class="bg-body-tertiary border-0 py-2" type="text" id="description" name="description" placeholder="Type Here">
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="row">
+                <label for="category" class="text-body-secondary">Category</label>
+                <input class="bg-body-tertiary border-0 py-2 mx-1" type="eselect" id="category" name="category" placeholder="Type Here">
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-2">
+            <div class="row">
+                <label for="quantity" class="text-body-secondary">Quantity</label>
+                <input class="bg-body-tertiary border-0 py-2" type="number" id="quantity" name="quantity" placeholder="Type Here">
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-2">
+            <a href="#" class=" text-dark-red text-decoration-none p-0" href="<%= root_path %>" aria-current="page">
+                <%= render "icons/square-plus"%>
+                Add Menu Item
+            </a>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="row mt-3 justify-content-end">
+        <div class="col-auto">
+            <div class="form-check form-check-reverse form-switch ">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Status Available</label>
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"> 
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3 justify-content-end">
+        <div class="col-auto">
+
+            <div class="form-check form-check-reverse form-switch ">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Discount Active</label>
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"> 
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row mt-3 justify-content-end">
+        <div class="col-auto">
+            <button type="submit" class="btn bg-dark-red text-white">Add Item to Menu</button> 
+        </div>
+    </div>
+
+</div>

@@ -9,6 +9,6 @@ Rails.application.routes.draw do
   root "dashboard#index"
 
   resources :dashboard
-  resources :menu
+  resources :menu_items
   resources :orders
 end

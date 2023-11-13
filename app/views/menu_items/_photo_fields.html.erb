@@ -1,0 +1,25 @@
+<div class='nested-fields box'>
+  <div class="row align-items-center justify-content-center mb-3">
+
+    <div class="fileinput-button upload-button" data-turbo="false" href="#">
+      <div class="img-placeholder">
+        <img class="memberPhotoPreview" src="" />
+
+          <div class="change-photo-wrapper text-center" >
+            <div class="fw-bold label">Select Photo</div>
+          </div>
+        <%= pp.file_field :image, data: { controller: 'fileinput', action: 'change->fileinput#photoPreview', target_preview: '.memberPhotoPreview' } %>
+        
+      </div>
+    </div>
+    
+
+
+
+    <div class='col-auto'>
+      <%= pp.hidden_field :_destroy %>
+      <%= link_to render('icons/trash').html_safe, "#", class: 'btn btn-danger', data: { action: "click->nested-form#remove_association" } %>
+    </div>
+  </div>
+  <hr/>
+</div>

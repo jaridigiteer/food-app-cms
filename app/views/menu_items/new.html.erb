@@ -1,0 +1,16 @@
+<div class="row align-items-center">
+  <div class="col text-dark-red">
+    <p><%= render "icons/arrow-left"%>Menu</p>
+  </div>
+</div>
+<div class="row align-items-center">
+  <div class="col">
+    <h2>Add Item form</h2>
+  </div>
+</div>
+
+<div class="p-0 mt-3">
+  <%= form_for [@menu_item] do |form| %>
+    <%=render "form", f: form%>
+    <% end %>
+</div>
